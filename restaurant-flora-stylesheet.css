@@ -17,7 +17,7 @@ div.container {
 }
 nav#pri-nav {
     float: left;
-    margin-right: 25px;
+    margin-right: 75px;
     margin-top: 25px;
 }
 nav#sec-nav {
@@ -38,11 +38,11 @@ header {
     margin-top: 42px;
 }
 h1 {
+    position: relative;
     font-size: 25px;
     font-weight: normal;
     margin: 0;
     margin-left: 25px;
-    clear: both;
 }
 a {
     color: black;
@@ -58,7 +58,8 @@ div#imagespacer {
 footer {
     position: absolute;
     right: 0px;
-    bottom: 10px;
+    bottom: 20px;
+    margin-top: 10px;
 }
 .link-ls {
     margin: 0;
