@@ -30,7 +30,9 @@ nav#sec-nav {
 #clearfix {
     display: inline-block;
     width: 850px;
+    height: 600px;
     position: absolute;
+    
 }
 header {
     height: 93px;
