@@ -18,8 +18,9 @@ div#container {
 }
 nav#pri-nav {
     float: left;
-    margin-right: 50px;
+    margin-right: 45px;
     margin-top: 25px;
+    width: 110px;
 }
 nav#sec-nav {
     position: absolute;
