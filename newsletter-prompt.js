@@ -8,7 +8,7 @@ function giveprompt() {
         } else if (result == false) {
             giveprompt();
         }
-    } else if (!(emailFormat.test(email))) {
+    } else {
         alert("Invalid entry");
         giveprompt();
     }
