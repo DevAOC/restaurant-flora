@@ -1,5 +1,5 @@
-var emailFormat = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
 function giveprompt() {
+    const emailFormat = /^\w+@[a-zA-Z_]+?\.[a-zA-Z]{2,3}$/;
     let email = prompt("Please enter your email address.");
     if (emailFormat.test(email)) {
         let result = confirm("Is " + email + " the correct email?");
