@@ -20,6 +20,7 @@ function promptAmount() {
     if (amount != null) {
         for (let x = 0; x < amount; x++) {
             add_img();
+            document.write(x + 1);
         }
     } else {
         promptAmount();
@@ -29,6 +30,6 @@ function promptAmount() {
 function add_img() { 
 	var img = document.createElement('img'); 
     img.src = 'flora-example-img.jpeg';
-    img.width = 335;
+    img.width = 330;
 	document.getElementById('content').appendChild(img);
 }
