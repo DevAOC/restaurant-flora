@@ -17,7 +17,7 @@ promptAmount();
 
 function promptAmount() {
     let amount = prompt("How many iterations would you like?");
-    if (amount > 0) {
+    if (amount != null) {
         for (let x = 0; x < amount; x++) {
             add_img();
         }
