@@ -13,20 +13,22 @@ function giveprompt() {
         giveprompt();
     }
 }
+promptAmount();
 
 function promptAmount() {
     let amount = prompt("How many iterations would you like?");
     if (amount > 0) {
-        for (let x = 1; x < amount; x++) {
+        for (let x = 0; x < amount; x++) {
             add_img();
-            document.write('<span>' + x + '</span>');
         }
+    } else {
+        promptAmount();
     }
 }
 
 function add_img() { 
 	var img = document.createElement('img'); 
     img.src = 'flora-example-img.jpeg';
-    img.width = 168;
-	document.getElementById('body').appendChild(img);
+    img.width = 335;
+	document.getElementById('content').appendChild(img);
 }
